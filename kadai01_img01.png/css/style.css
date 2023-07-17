@@ -90,3 +90,29 @@ footer{
     color: #777;
 }
 
+/* ニュースのリスト */
+.news_list{
+    list-style: none;
+    padding: 0;
+    border-top: 1px dotted #000;
+}
+
+.news_list li{
+    border-bottom: 1px dotted #000;
+    padding: 12px 0;
+}
+
+.news_date{
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+/* バナー */
+.banner{
+    float: left;
+    width: 31%;
+}
+
+.banner img{
+    width: 100%;
+}
