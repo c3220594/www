@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+/* ----- ヘッダー ----- */
+/* グローバルナビゲーション */
+.header_logo{
+    text-align: center;
+}
+
+.header_navlist{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.header_navlist{
+    /* display: inline-block; */
+    margin: 16px 28px;
+    list-style: none;
+    float: left;
+} 
+
+.header_navlist .float_none{
+    float: none;
+}
+
+.header_mainvisual{
+    margin: 40px 40px 40px 60px;
+}
+.header_mainvisual img{
+    width: 100%;
+    border: 10px;
+    margin-left: -20px;
+}
