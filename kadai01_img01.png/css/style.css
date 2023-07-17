@@ -44,3 +44,49 @@ main{
     font-weight: normal;
     text-align: center;
 }
+
+.margin_content body{
+    text-align: center;
+}
+
+.main_goodpoints section{
+    width: 31%;
+    float: left;
+}
+
+.main_goodpoint section img{
+    width: 100%;
+}
+
+.main_goodpoint_02{
+    margin: 0 3.5%;
+}
+
+.clear_both{
+    clear: both;
+}
+
+/* -----フッター -----*/
+footer{
+    margin: 40px 28px 0;
+}
+
+/*-----ニュース -----*/
+.news{
+    float: left;
+    width: 65.5%;
+    margin-right: 3.5%;
+}
+
+.news_h2{
+    margin: 0;
+}
+
+.news_older{
+    float: right;
+    margin-top: 12px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #777;
+}
+
