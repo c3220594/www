@@ -26,7 +26,6 @@ body{
 }
 
 .header_hometab img{
-    margin-top: 10%;
     margin-left: -20%;
 }
 
@@ -35,6 +34,6 @@ body{
 }
 .header_mainvisual img{
     width: 100%;
-    border: 10px;
+    border: 10px solid #ddd;
     margin-left: -20px;
 }
