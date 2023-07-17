@@ -14,7 +14,7 @@ body{
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
-.header_navlist{
+.header_navlist li{
     /* display: inline-block; */
     margin: 16px 28px;
     list-style: none;
