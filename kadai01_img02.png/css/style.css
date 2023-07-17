@@ -19,6 +19,7 @@ body{
     margin: 16px 28px;
     list-style: none;
     float: left;
+    text-align: center;
 } 
 
 .header_navlist .float_none{
