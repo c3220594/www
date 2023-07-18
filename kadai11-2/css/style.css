@@ -2,7 +2,6 @@ h1.q2{
     position: relative;
     width: 320px;
     padding: 20px; 
-    height: 15%;  
 }
 
 h1.q2::before{
