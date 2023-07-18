@@ -7,7 +7,6 @@ h1.q2{
 h1.q2::before{
     content: '';
     position: absolute;
-    top: -15px;
     display: block;
     width: 0;
     height: 0;
