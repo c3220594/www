@@ -1,5 +1,28 @@
 h1.q2{
+    position: relative;
+    padding-top: 1.5rem;
+    border: 3px solid #333;
+    font-weight: bold;
+    font-size: 26px;
+    
+}
 
+h1.q2:before,
+h1.q2:after{
+    position: absolute;
+    top: 100%;
+    left: 30px;
+    height: 0;
+    width: 0;
+    border: solid transparent;
+    content: "";
+}
+
+h1.q2:before{
+    margin-left: -12px;
+    border-color: transparent;
+    border-top-color: #333;
+    border-width: 12px;
 }
 
 body{
