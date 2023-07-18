@@ -1,7 +1,7 @@
 h1.q2{
     position: relative;
-    width: 280px;
-    padding: 20px;   
+    width: 320px;
+    padding: 10px;   
 }
 
 h1.q2::before{
