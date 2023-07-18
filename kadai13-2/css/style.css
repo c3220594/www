@@ -7,7 +7,7 @@ a.q2:hover{
     padding-right: 45px;
     text-decoration: none;
     transition: .3s;
-    border-radius: 20px;
+    border-radius: 20px 10px;
 }
 
 body{
