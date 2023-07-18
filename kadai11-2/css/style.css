@@ -12,7 +12,7 @@ h1.q2::before{
     display: block;
     height: 0;
     width: 0;
-    border-bottom: 15px solid #5bdb9e;
+    border-top: 15px solid #5bdb9e;
     border-right: 15px solid transparent;
     border-left: 15px solid transparent;
     
