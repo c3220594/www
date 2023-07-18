@@ -4,6 +4,10 @@ a.q1:hover{
     background-color: #ff9f25;
     color: #fff;
     border: 2px solid #ff9f25;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, #ff9f25);
 }
 
 body{
