@@ -15,7 +15,7 @@ h1.q2:after{
     height: 0;
     width: 0;
     border: solid transparent;
-    content: "";
+    content: '';
 }
 
 h1.q2:before{
