@@ -14,16 +14,7 @@ h1.q2::before{
     bottom: -15px;
     border-top: 15px solid #5bdb9e;
     border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    
-  
-}
-
-h1.q2::before{
-    margin-left: -12px;
-    border-color: transparent;
-    border-top-color: #5bdb9e;
-    border-width: 12px;
+    border-left: 15px solid transparent; 
 }
 
 body{
