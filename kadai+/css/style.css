@@ -18,7 +18,3 @@ body{
     transition: all 1s ease-in-out;
     font-weight: bold;
 }
-/* アニメーション発火時 */
-.point1.inview{
-    background-size: 100% 30%;
-}
