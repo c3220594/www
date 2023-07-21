@@ -2,7 +2,7 @@
     const height = window.innerHeight;
     const scroll = this.pageY0ffset;
     const marker = document.querySelectorAll('.marker');
-    const value = scroll - height + 300
+    const value = scroll - height + 2000
 
 
     marker.forEach(element){
