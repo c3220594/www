@@ -1,13 +1,10 @@
- window.addEventListener('scroll',function()
-    const height = window.innerHeight;
-    const scroll = this.pageY0ffset;
-    const marker = document.querySelectorAll('.marker');
-    const value = scroll - height + 10
-
-
-    marker.forEach(element){
-
-       if(scroll > element.getBoundingClientRect().top + value){
-        element.classList.add('on')
-       }
-    });
+$(window).scroll(function(){
+    $(".js-markerScrollAnimation").each(function(){
+        var position = $(this).offset().top;
+        var scroll = $(window).scrolltop();
+        var windowHeight = $(window).height();
+        if (scroll > position - windowHeight){
+            $(this).addClass('is-active');
+        }
+    });    
+});
