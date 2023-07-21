@@ -9,7 +9,7 @@
     background-size: 0% 100%;
 
     /*マーカーが引かれる速度を指定*/
-    transition:background-size 1.5s;
+    transition:background-size 5ms;
 }
 /*マーカーが引かれる際に付与するクラス*/
 .marker.on{

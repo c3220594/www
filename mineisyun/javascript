@@ -1,0 +1,13 @@
+ window.addEventListener('scroll',function()
+    const height = window.innerHeight;
+    const scroll = this.pageY0ffset;
+    const marker = document.querySelectorAll('.marker');
+    const value = scroll - height + 300
+
+
+    marker.forEach(element){
+
+       if(scroll > element.getBoundingClientRect().top + value){
+        element.classList.add('on')
+       }
+    });
