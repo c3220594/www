@@ -1,4 +1,4 @@
-.marker{
+.point{
     background: linear-gradient(transparent 50%,rgba(255,220,123)50%);
     display: inline;
 
@@ -12,7 +12,7 @@
     transition:background-size 1.5s;
 }
 /*マーカーが引かれる際に付与するクラス*/
-.marker.on{
+.point.on{
     /*横方向を100％にして、マーカーを引く*/
     background-size:  100% 100%;
 }
