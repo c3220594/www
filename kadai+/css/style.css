@@ -7,9 +7,6 @@ body{
     
 }
 
-.point.points{
-    background: linear-gradient(transparent 50% rgba(255,153,0,0.5) 50%);/* マーカーを引く */
-
-    /* インライン属性を指定する */
-    display: inline;
+mark{
+    background: linear-gradient(transparent 40%, #ff6633 80%);
 }
