@@ -7,7 +7,7 @@ body{
     
 }
 
-.point.pointsupdate2023/{
+.point.points{
     background: linear-gradient(transparent 50% rgba(255,153,0,0.5) 50%);/* マーカーを引く */
 
     /* インライン属性を指定する */
