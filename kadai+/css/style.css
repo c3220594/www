@@ -8,6 +8,6 @@ body{
     
 }
 
-mark{
+.point{
     background: linear-gradient(transparent 40%, #ff6633 80%);
 }
