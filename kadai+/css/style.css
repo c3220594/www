@@ -8,6 +8,7 @@ body{
     
 }
 
-.point{
+.point li{
     background: linear-gradient(transparent 40%, #ff6633 80%);
+    list-style: none;
 }
