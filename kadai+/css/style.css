@@ -9,6 +9,6 @@ body{
 }
 
 .point li{
-    background: linear-gradient(transparent 40%, #ff6633 80%);
+    background: linear-gradient(transparent 40%, #ff9933 50%);
     list-style: none;
 }
