@@ -31,9 +31,9 @@ body h1{
 
 
 .kimuchi img{
+    text-align: center;
     width: 400px;
     height: auto;
-    text-align: center;
 }
 
 mark{
