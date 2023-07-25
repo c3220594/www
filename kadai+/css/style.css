@@ -33,6 +33,8 @@ body h1{
 .kimuchi img{
     width: 150px;
     height: auto;
+    margin: auto;
+    display: block;
 }
 
 mark{
