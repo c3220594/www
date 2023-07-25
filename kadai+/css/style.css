@@ -26,8 +26,8 @@ body h1{
 
 
 .kimuchi img{
-    width: 70%;
-    text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 mark{
