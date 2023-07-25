@@ -40,7 +40,7 @@ mark{
     list-style: none;
 }
 
-.hitokoto.kouka{
+.hitokoto span{
     text-decoration: underline;
     text-decoration-color: red;
 }
