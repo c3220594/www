@@ -40,7 +40,7 @@ mark{
     list-style: none;
 }
 
-span{
+.kouka{
     text-decoration: underline;
     text-decoration-color: red;
 }
