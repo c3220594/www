@@ -41,6 +41,6 @@ mark{
 }
 
 .wave{
-    text-decoration: wavy;
+    text-decoration: underline wavy red;
     text-decoration-color: red;
 }
