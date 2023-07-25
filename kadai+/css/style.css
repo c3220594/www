@@ -39,3 +39,8 @@ mark{
     line-height: 1;
     list-style: none;
 }
+
+.kouka{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
