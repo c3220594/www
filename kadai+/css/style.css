@@ -35,7 +35,7 @@ body h1{
 }
 
 mark{
-    background: linear-gradient(transparent 70%, #ff9966 40%);
+    background: linear-gradient(transparent 70%, #ffff66 40%);
     line-height: 1;
     list-style: none;
 }
