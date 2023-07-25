@@ -40,7 +40,7 @@ mark{
     list-style: none;
 }
 
-.hitokoto span{
+.hitokoto span.wave{
     text-decoration: wavy;
     text-decoration-color: red;
 }
