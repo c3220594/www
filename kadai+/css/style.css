@@ -27,7 +27,7 @@ body{
 }
 
 mark{
-    background: linear-gradient(transparent 70%, #ff9966 30%);
+    background: linear-gradient(transparent 70%, #ff9966 40%);
     line-height: 1;
     list-style: none;
 }
