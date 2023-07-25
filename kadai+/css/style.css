@@ -41,6 +41,6 @@ mark{
 }
 
 .hitokoto span{
-    text-decoration: wavy;
+    text-decoration: underline wavy;
     text-decoration-color: red;
 }
