@@ -40,9 +40,7 @@ mark{
     list-style: none;
 }
 
-span{
+.hitokoto span{
     text-decoration: wavy;
     text-decoration-color: red;
-    padding-bottom: 5px;
-    background: url(parts.png) repeat-x bottom left / auto 5px;
 }
