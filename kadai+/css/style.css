@@ -3,6 +3,24 @@ body{
     background-color: ivory;
     font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
 }
+
+.zairyou h2{
+    background-color:#cc99ff;
+}
+
+.howtomake h2{
+    background-color: #cc99ff;
+}
+
+.point h2{
+    background-color: #cc99ff;
+}
+
+.hitokoto h2{
+    background-color: #cc99ff;
+}
+
+
 .kimuchi img{
     width: 60%;
     
