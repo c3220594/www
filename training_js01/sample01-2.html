@@ -2,11 +2,28 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScriptのサンプル</title>
+    <style>
+        body{
+            padding: 0px 20px;
+        }
+        h1{
+            margin: 20px 0px 0px;
+        }
+        #pic{
+            border: solid 5px #333333;
+        }
+        button{
+            margin-right: 15px;
+        }
+    </style>
 </head>
+
 <body>
+    <h1>美しい風景</h1>
+    <img src="IMG_2586.jpeg" id="pic"><br>
+    <button onclick="document.getElementById('pic').setAttribute('src','IMG_2586.jpeg');">写真1</button>
     
 </body>
 </html>
