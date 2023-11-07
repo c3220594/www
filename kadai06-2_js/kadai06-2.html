@@ -13,12 +13,13 @@
 <body>
     <h1>座席の予約</h1>
     <p>東京会場　<b>（予約受付中）</b></p>
-    <button onclick="yoyaku();">予約する</button>
+    <div id="kanryou"></div><button onclick="yoyaku();">予約する</button>
 </body>
 <script>
     function yoyaku(){
+        let anser = document.getElementById('kanryou');
         alert('ありがとうございました。');
-        
+
     }
 </script>
 </html>
