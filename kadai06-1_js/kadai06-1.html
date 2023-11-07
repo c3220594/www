@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+<style>
+        th{
+            background-color: #ff9933;
+        }
+        th,td{
+            border: solid 1px;
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+</style>
 </head>
+
 <body>
-    
+    <h1>利用料の計算</h1>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>料金(a)</th>
+            <th>人数(b)</th>
+            <th>a×b</th>  
+        </tr>
+        <tr>
+            <th>0</th>
+            <td>500</td>
+            <td>10</td>
+            <td><p><button onclick="multiply(5000);">利用料の合計</button></p></td>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>980</td>
+            <td>16</td>
+            <td><p><button onclick="multiply(15680);">利用料の合計</button></p></td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>1200</td>
+            <td>8</td>
+            <td><p><button onclick="multiply(9600);">利用料の合計</button></p></td>
+        </tr>
+    </table>
+<script>
+    let a=[500, 980, 1200];
+    let b=[10, 16, 8];
+    function multiply(price){
+        let anser = price;
+        alert('料金は' + anser + '円です');
+    }
+</script>
 </body>
+
 </html>
