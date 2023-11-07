@@ -16,9 +16,8 @@
     <div id="kanryou"></div><button onclick="yoyaku();">予約する</button>
 </body>
 <script>
-    const button = document.getElementById('kanryou');
-    button.style.display = 'none';
     function yoyaku(){
+        button.style.display = none;
         document.getElementById('kanryou').textContent = 'ありがとうございました。';
     }
     document.getElementById('yoyakuzumi').textContent = '予約済み';
