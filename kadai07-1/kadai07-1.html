@@ -8,4 +8,14 @@
 <body>
     
 </body>
+
+<script>
+    function greetings(){
+        const today = new Date();
+        const hour = genzai.getHours();
+        if (hour >= 5 && hour < 9) return "おはようございます";
+        if (hour < 18) return "こんにちは";
+        else return "こんばんは";
+    }
+</script>
 </html>
