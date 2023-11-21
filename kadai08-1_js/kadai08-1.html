@@ -21,10 +21,11 @@
     let people = ['中国', 'インド', 'アメリカ', 'インドネシア']
     let list = document.querySelectorAll('#people ol');
     function get_ol(){
-        list[0].textContent = people[0];
-        list[1].textContent = people[1];
-        list[2].textContent = people[2];
-        list[3].textContent = people[3];
+        let ulBox = document.getElementById('people');
+        ulBox.insertAdjacentHTML('beforeen', '<li>' + list[0] + '</li>');
+        ulBox.insertAdjacentHTML('beforeenf', '<li>' + list[1] + '</li>');
+        ulBox.insertAdjacentHTML('beforeenf', '<li>' + list[2] + '</li>');
+        ulBox.insertAdjacentHTML('beforeenf', '<li>' + list[3] + '</li>');
     }
 </script>
 </html>
