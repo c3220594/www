@@ -14,18 +14,18 @@
         <li>アメリカ</li>
         <li>インドネシア</li>
     </ol>
-    <button onclick="get_ol()">国旗で表示</button>
+    <button onclick="get_li()">国旗で表示</button>
 </body>
 
 <script>
     let people = ['中国', 'インド', 'アメリカ', 'インドネシア']
-    let list = document.querySelectorAll('#people ol');
-    function get_ol(){
+    let list = document.querySelectorAll('#people li');
+    function get_li(){
         let ulBox = document.getElementById('people');
-        ulBox.insertAdjacentHTML('beforeen', '<li>' + list[0] + '</li>');
-        ulBox.insertAdjacentHTML('beforeenf', '<li>' + list[1] + '</li>');
-        ulBox.insertAdjacentHTML('beforeenf', '<li>' + list[2] + '</li>');
-        ulBox.insertAdjacentHTML('beforeenf', '<li>' + list[3] + '</li>');
+        ulBox.insertAdjacentHTML('beforeend', '<li>' + list[0] + '</li>');
+        ulBox.insertAdjacentHTML('beforeend', '<li>' + list[1] + '</li>');
+        ulBox.insertAdjacentHTML('beforeend', '<li>' + list[2] + '</li>');
+        ulBox.insertAdjacentHTML('beforeend', '<li>' + list[3] + '</li>');
     }
 </script>
 </html>
