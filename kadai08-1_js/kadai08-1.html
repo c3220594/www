@@ -15,17 +15,17 @@
         <li>インドネシア</li>
     </ol>
     <button onclick="get_li()">国旗で表示</button>
-</body>
 
 <script>
     let people = ['中国', 'インド', 'アメリカ', 'インドネシア']
     let list = document.querySelectorAll('#people li')
     function get_li(){
-        let ulBox = document.getElementById('people');
-        ulBox.insertAdjacentHTML('beforeend', '<li>' + list[0] + '</li>');
-        ulBox.insertAdjacentHTML('beforeend', '<li>' + list[1] + '</li>');
-        ulBox.insertAdjacentHTML('beforeend', '<li>' + list[2] + '</li>');
-        ulBox.insertAdjacentHTML('beforeend', '<li>' + list[3] + '</li>');
-    }
+        list[0].innerHTML = '<img scr= "IMG_2759.jpeg">';
+        list[1].innerHTML = '<img scr= "IMG_2760.jpeg">';
+        list[2].innerHTML = '<img scr= "IMG_2761.jpeg">'; 
+        list[3].innerHTML = '<img scr= "IMG_2762.jpeg">'; 
+    }  
 </script>
+</body>
+
 </html>
