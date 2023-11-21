@@ -8,21 +8,22 @@
 
 <body>
     <h1>人口の多いランキング</h1>
-    <ol id="people">
+    <li id="people">
         <li>中国</li>
         <li>インド</li>
         <li>アメリカ</li>
         <li>インドネシア</li>
-    </ol>
+    </li>
     <button onclick="get_li()">国旗で表示</button>
 
 <script>
+    let people
     let list = document.querySelectorAll('#people li')
     function get_li(){
-        list[0].innerHTML = <img scr= "IMG_2759.jpeg">;
-        list[1].innerHTML = <img scr= "IMG_2760.jpeg">;
-        list[2].innerHTML = <img scr= "IMG_2761.jpeg">; 
-        list[3].innerHTML = <img scr= "IMG_2762.jpeg">; 
+        list[0].innerHTML = '<img scr= "IMG_2759.jpeg">';
+        list[1].innerHTML = '<img scr= "IMG_2760.jpeg">';
+        list[2].innerHTML = '<img scr= "IMG_2761.jpeg">'; 
+        list[3].innerHTML = '<img scr= "IMG_2762.jpeg">'; 
     }  
 </script>
 </body>
