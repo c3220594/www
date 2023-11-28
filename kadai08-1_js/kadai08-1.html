@@ -20,10 +20,10 @@
 
     function get_li(){
         let ulBox = document.querySelectorAll('#people li');
-        ulBox[0].insertAdjacentHTML('afterbegin', '<img src="IMG_2759.png">');
-        ulBox[1].insertAdjacentHTML('afterbegin', '<img src="IMG_2760.png">');
-        ulBox[2].insertAdjacentHTML('afterbegin', '<img src="IMG_2761.png">');
-        ulBox[3].insertAdjacentHTML('afterbegin', '<img src="IMG_2762.png">');
+        ulBox.insertAdjacentHTML('afterbegin', '<img src="IMG_2759.png">');
+        ulBox.insertAdjacentHTML('afterbegin', '<img src="IMG_2760.png">');
+        ulBox.insertAdjacentHTML('afterbegin', '<img src="IMG_2761.png">');
+        ulBox.insertAdjacentHTML('afterbegin', '<img src="IMG_2762.png">');
         document.getElementById('people').remove();
     }
 </script>
