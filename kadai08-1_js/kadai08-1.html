@@ -18,14 +18,13 @@
     
 <script>
     let people = ['中国', 'インド', 'アメリカ', 'インドネシア']
-    let list = document.querySelectorAll('people li')
     function get_li(){
-        list.innerHTML ='<img src="IMG_2759.png"> ';
-        list.innerHTML ='<img src="IMG_2760.png">';
-        list.innerHTML ='<img src="IMG_2761.png">';
-        list.innerHTML ='<img src="IMG_2762.png">';
+        let ulBox = document.getElementById('people li');
+        ulBox.insertAdjacentHTML('beforeend', '<img src="IMG_2759.png">');
+        ulBox.insertAdjacentHTML('beforeend', '<img src="IMG_2760.png">');
+        ulBox.insertAdjacentHTML('beforeend', '<img src="IMG_2761.png">');
+        ulBox.insertAdjacentHTML('beforeend', '<img src="IMG_2762.png">');
     }
-
 </script>
 </body>
 
