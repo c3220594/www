@@ -12,7 +12,6 @@
     <button id="btn" onclick="show()">ヒントを見る</button>
     <p id="attention">（注意）北海道は「県」ではありません。</p>
     <div id="message" id="btn"></div>
-    <div id="attention"></div>
 
 <script>
     let clickTimes = 0;
@@ -26,9 +25,7 @@
                 document.getElementById('message').textContent = '答えは「岩手県」です。';
                
         }
-       
-        document.getElementsById('attention').remove();
-
+       document.getElementsById('attention').remove();
     }
     
 </script>
