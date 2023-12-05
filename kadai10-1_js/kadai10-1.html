@@ -21,12 +21,13 @@
         clickTimes++;
         switch(clickTimes){
             case 1:
-                text = '東北地方にあります。';
+                document.getElementById('message').textContent = '東海地方にあります。';
                 break;
             default:
-                text = '答えは「岩手県」です。'
+                document.getElementById('message').textContent = '答えは「岩手県」です。';
+               
         }
-        document.getElementById('message').textContent = '答えを見る';
+       
         document.getElementsById('message2').remove();
 
     }
