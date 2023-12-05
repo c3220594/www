@@ -16,15 +16,15 @@
 <script>
     let clickTimes = 0;
     function show(){
-        document.getElementsById('attention').remove();  
         clickTimes++;
         switch(clickTimes){
             case 1:
                 document.getElementById('message').textContent = '東海地方にあります。';
                 break;
             default:
-                document.getElementById('message').textContent = '答えは「岩手県」です。';             
-        }
+                document.getElementById('message').textContent = '答えは「岩手県」です。';
+            }
+            document.getElementsById('attention').remove();  
     }
     
 </script>
