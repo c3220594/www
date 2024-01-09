@@ -16,8 +16,27 @@
 <body>
     <h1>n～mで割り切れる数字</h1>
     <p>1～10の好きな範囲で<br>割り切れる最小の数値をJavaScriptで求めます。</p>
-    <button onclick="inputCheck();">範囲を指定</button>
+    <button onclick="show();">範囲を指定</button>
     <div id="message">ここに結果が表示されます。</div>
+
+<script>
+    function show(){
+        let text = '';
+        let min = parseInt(prompt('範囲の最小値を1～10で入力してください'));
+        let max = parseInt(prompt('範囲の最大値を入力してください'));
+        for(let i = min; i <= max; i++){
+            let flag = check(i);
+            if(flag){
+                text =text + i + ' ';
+            }
+        }
+        document.getElementById('message').textContent = text;
+    }
+
+    function check(num){
+        
+    }
+</script>
     
 </body>
 </html>
