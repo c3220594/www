@@ -9,7 +9,7 @@
 <body>
     <h1>問題</h1>
     <h3>富山県の特産物でないものは次のうちどれでしょう？</h3>
-    <button id="btn" onclick="show()">ヒントを見る</button>
+    <button id="btn" onclick="show()"></button>
     <button onclick="check(1)">ゲンゲ</button>
     <button onclick="check(2)">ブリ</button>
     <button onclick="check(3)">カツオ</button>
@@ -18,18 +18,7 @@
     <div id="message" id="btn"></div>
 
 <script>
-        let clickTimes = 0;
     function show(){
-        clickTimes++;
-        switch(clickTimes){
-            case 1:
-                document.getElementById('message').textContent = '高知県で有名な魚が含まれています！';
-                break;
-            default:
-                document.getElementById('message').textContent = '答えは「カツオ」です。';
-            }
-        document.getElementById('btn').innerHTML='答えを見る';
-        document.getElementById('attention').remove();  
         if( 1 == ゲンゲ){
             document.getElementById('message').textContent = '正解！';
         }else{
