@@ -8,26 +8,24 @@
 
 <body>
     <h1>問題</h1>
-    <h3>富山県の特産物でないものは次のうちどれでしょう？</h3>
-    <button id="btn" onclick="show()"></button>
-    <button onclick="check(1)">ゲンゲ</button>
-    <button onclick="check(2)">ブリ</button>
-    <button onclick="check(3)">カツオ</button>
-    <button onclick="check(4)">ホタルイカ</button>
-    <button onclick="check(5)">白エビ</button>
-    <div id="message" id="btn"></div>
+    <h3>イタリアの都市国家であるバチカン市国は世界で最も人口の少ない国である。<br>では、バチカン市国の人口は何人でしょう？次の選択肢から選んでください。</h3>
+    <button onclick="check(1)">753</button>
+    <button onclick="check(2)">321</button>
+    <button onclick="check(3)">615</button>
+    <button onclick="check(4)">1080</button>
+    <button onclick="check(5)">890</button>
+    <div id="message"></div>
 
 <script>
-    function show(){
-        if( 1 == ゲンゲ){
+        function check(){
+        if(3 == 615){
             document.getElementById('message').textContent = '正解！';
+  
         }else{
             document.getElementById('message').textContent = '間違い！';
         }
     }
-
 </script>
-
-    
+ 
 </body>
 </html>
